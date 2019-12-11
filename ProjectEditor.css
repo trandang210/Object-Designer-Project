@@ -1,0 +1,165 @@
+#editor {
+	background-image: url('background.png');
+    border: solid black thin;
+    position: absolute;
+} 
+#namebox{
+   display: table;
+   width: 400px;
+   height: 200px;
+   border: 1px solid grey;
+   background-color: lightgray;
+}
+#fieldbox{
+    display: table;
+    width: 400px;
+    height: 250px;
+    border: 1px solid grey;
+    background-color: lightgray;
+ }
+ #extraspace{
+     height: 30px;
+ }
+#notebox{
+    display: table;
+    width: 400px;
+    height: 250px;
+    border: 1px solid grey;
+    background-color: lightgray;
+}
+
+th{
+    background-color: grey;
+    height: 25px;
+    width: 300px;
+}
+input{
+    height: 100px;
+    width: 300px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    float:auto;
+    
+}
+[id*="cancel"]{
+    background-color:red;
+    display: block;
+    width: 30px;
+    height: 20px;
+    top: 5px;
+    right:5px;
+    position:absolute;
+    float:auto;
+    text-align:center;
+
+}
+[id*= "ok"]{
+    background-color:skyblue;
+    position:absolute;
+    width: 45px;
+    height: 28px;
+    bottom: 5px;
+    right:10px;
+
+}
+#namedialog{
+    width:400px;
+    height:200px;
+    margin: auto;
+    top: 125px;
+    left: 250px;
+    position:absolute;
+    display:none;
+}
+#fielddialog{
+    width:400px;
+    height:250px;
+    margin: auto;
+    top: 125px;
+    left: 250px;
+    position:absolute;
+    display:none;
+}
+#notedialog{
+    width:400px;
+    height:220px;
+    margin: auto;
+    top: 125px;
+    left: 250px;
+    position:absolute;
+    display:none;
+}
+#color{
+    width: 70px;
+}
+#container{
+    width:900px;
+    height:450px;
+   
+}
+select{
+    
+    border-radius: 5px;
+    float:auto;
+    
+}
+input#startlabel{
+    height: 30px;
+    width: 150px;
+    border: 1px solid rgb(8, 89, 136);
+    border-radius: 5px;
+    float:auto;
+}
+input#middlelabel{
+    height: 30px;
+    width: 150px;
+    border: 1px solid rgb(8, 89, 136);
+    border-radius: 5px;
+    float:auto;
+}
+input#endlabel{
+    height: 30px;
+    width: 150px;
+    border: 1px solid rgb(8, 89, 136);
+    border-radius: 5px;
+    float:auto;
+}
+#cancel1{
+    background-color:whitesmoke;
+    display: block;
+    width: 30px;
+    height: 20px;
+    top: 5px;
+    right:5px;
+    position:absolute;
+    float:auto;
+    text-align:center;
+
+}
+#submit{
+    background-color:rgb(95, 95, 104);
+    position:absolute;
+    width: 45px;
+    height: 28px;
+    bottom: 5px;
+    right:10px;
+
+}
+#edgedialog{
+    width:400px;
+    height:200px;
+    margin: auto;
+    top: 125px;
+    left: 250px;
+    position:absolute;
+    display:none;
+}
+table#edgeproperties{
+    display: table;
+    width: 400px;
+    height: 200px;
+    border: 1px solid grey;
+    background-color: lightgray;
+ 
+    
+ }
